@@ -4,7 +4,7 @@ A modern, responsive developer portfolio built using **HTML, CSS, and JavaScript
 
 ## 🌐 Live Demo
 
-> Add your deployed portfolio link here (GitHub Pages / Netlify / Vercel)
+> [khushiwritesandshines.netlify.app](https://khushiwritesandshines.netlify.app/)
 
 ## ✨ Features
 
