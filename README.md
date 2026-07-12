@@ -93,7 +93,7 @@ git clone https://github.com/KhushiDhankhar/portfolio.git
 Navigate to the project directory:
 
 ```bash
-cd your-portfolio
+cd portfolio
 ```
 
 Open `index.html` in your browser or use a local development server such as VS Code Live Server.
