@@ -1,0 +1,18 @@
+/* experience timeline */
+  .timeline{position:relative; padding-left:28px;}
+  .timeline::before{
+    content:''; position:absolute; left:5px; top:6px; bottom:6px; width:1px; background:var(--line);
+  }
+  .tl-item{position:relative; padding-bottom:44px;}
+  .tl-item:last-child{padding-bottom:0;}
+  .tl-dot{
+    position:absolute; left:-28px; top:4px; width:11px; height:11px; border-radius:50%;
+    background:var(--ink); border:2px solid var(--signal);
+  }
+  .tl-head{display:flex; flex-wrap:wrap; justify-content:space-between; gap:8px; margin-bottom:4px;}
+  .tl-role{font-weight:600; font-size:17px;}
+  .tl-date{font-family:'IBM Plex Mono', monospace; font-size:12.5px; color:var(--muted);}
+  .tl-sub{color:var(--muted); font-size:13.5px; margin-bottom:12px;}
+  .tl-sub .grade{color:var(--amber);}
+  .tl-item ul{margin:0; padding-left:18px; color:var(--body-text); font-size:14.5px;}
+  .tl-item li{margin-bottom:6px;}

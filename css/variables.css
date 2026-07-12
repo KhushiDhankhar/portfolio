@@ -1,0 +1,73 @@
+:root {
+    --bg: #070a13;
+    --panel: rgba(255, 255, 255, 0.06);
+    --panel-2: rgba(255, 255, 255, 0.08);
+    --text: #e8eefc;
+    --muted: #aab6d3;
+    --brand: #7c5cff;
+    --brand-2: #33d1ff;
+    --accent: #22c55e;
+    --danger: #ef4444;
+    --ring: rgba(124, 92, 255, 0.35);
+    --shadow: 0 10px 30px rgba(0, 0, 0, .35);
+    --radius: 22px;
+    --maxw: 1180px;
+    --header-h: 72px;
+
+
+ /* terminal always stays dark regardless of page theme — real terminals do */
+    --term-bg:#101A2E;
+    --term-bg2:#0D1626;
+    --term-border:#223154;
+    --term-text:#C7D0E4;
+    --term-muted:#8A97B5;
+    --term-signal:#4FD1C5;
+  }
+
+  html[data-theme="light"]{
+    --ink:#F3F6FC;
+    --panel:#FFFFFF;
+    --panel-2:#EAF0F9;
+    --line:#D7E0EF;
+    --text:#7c828f;
+    --muted:#5B6B8C;
+    --signal:#0C8C7D;
+    --amber:#B15A24;
+    --body-text:#d8e0f3;
+    --header-bg:rgba(243,246,252,0.86);
+  }
+
+  body{transition:background-color .35s ease, color .35s ease;}
+  header.site, .terminal, .stat-panel, .skill-card, .proj-card, .edu-card, .btn, .chip, .proj-tags span{
+    transition:background-color .35s ease, border-color .35s ease, color .35s ease;
+  }
+
+  *{box-sizing:border-box;}
+  html{scroll-behavior:smooth;}
+  body{
+    margin:0;
+    background:var(--ink);
+    color:var(--text);
+    font-family:'Inter', sans-serif;
+    line-height:1.6;
+    -webkit-font-smoothing:antialiased;
+  }
+  ::selection{background:var(--signal); color:#06201D;}
+
+  a{color:inherit;}
+  a:focus-visible, button:focus-visible{
+    outline:2px solid var(--signal);
+    outline-offset:3px;
+    border-radius:4px;
+  }
+
+  h1,h2,h3{font-family:'Space Grotesk', sans-serif; margin:0; letter-spacing:-0.01em;}
+  .mono{font-family:'IBM Plex Mono', monospace;}
+
+  .wrap{max-width:var(--maxw); margin:0 auto; padding:0 28px;}
+
+   /* ---------- ambient network background ---------- */
+  #netbg{
+    position:fixed; inset:0; z-index:0; pointer-events:none;
+    opacity:0.35;
+  }

@@ -1,0 +1,59 @@
+ /* ---------- sticky header ---------- */
+  header.site{
+    position:sticky; top:0; z-index:50;
+    background:var(--header-bg);
+    backdrop-filter:blur(10px);
+    border-bottom:1px solid var(--line);
+  }
+  header.site .wrap{
+    display:flex; align-items:center; justify-content:space-between;
+    height:60px;
+  }
+  .logo{
+    font-family:'IBM Plex Mono', monospace;
+    font-weight:600; font-size:16px; letter-spacing:0.01em;
+    color:var(--text); text-decoration:none;
+    display:flex; align-items:center; gap:8px;
+    text-transform:lowercase;
+  }
+  .logo-accent{color:var(--signal); font-weight:500;}
+  .logo-mark{
+    width:16px; height:16px; color:var(--amber); flex-shrink:0;
+    animation:sparkle 3.2s ease-in-out infinite;
+    transform-origin:center;
+  }
+  @keyframes sparkle{
+    0%, 100%{opacity:1; transform:scale(1) rotate(0deg);}
+    50%{opacity:0.75; transform:scale(0.88) rotate(8deg);}
+  }
+  nav.links{display:flex; gap:26px; align-items:center;}
+  nav.links a{
+    font-family:'IBM Plex Mono', monospace;
+    font-size:13px; color:var(--muted); text-decoration:none;
+    transition:color .2s ease;
+  }
+  nav.links a:hover{color:var(--signal);}
+  nav.icons{display:flex; gap:14px;}
+  nav.icons a{
+    width:32px; height:32px; display:flex; align-items:center; justify-content:center;
+    border:1px solid var(--line); border-radius:8px; color:var(--muted);
+    transition:all .2s ease;
+  }
+  nav.icons a:hover{color:var(--signal); border-color:var(--signal);}
+  nav.icons svg{width:15px; height:15px;}
+
+  .theme-toggle{
+    width:32px; height:32px; display:flex; align-items:center; justify-content:center;
+    border:1px solid var(--line); border-radius:8px; color:var(--muted);
+    background:transparent; cursor:pointer; transition:all .2s ease;
+    padding:0;
+  }
+  .theme-toggle:hover{color:var(--signal); border-color:var(--signal);}
+  .theme-toggle svg{width:15px; height:15px;}
+  .theme-toggle .icon-sun{display:none;}
+  html[data-theme="light"] .theme-toggle .icon-sun{display:block;}
+  html[data-theme="light"] .theme-toggle .icon-moon{display:none;}
+
+  @media(max-width:720px){
+    nav.links{display:none;}
+  }

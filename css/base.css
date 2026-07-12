@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Inter", sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    overflow-x: hidden;
+    line-height: 1.6;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+button {
+    font: inherit;
+    cursor: pointer;
+    border: none;
+    background: none;
+}
+
+.wrap {
+    width: min(var(--maxw), calc(100% - 32px));
+    margin-inline: auto;
+}
+
+section {
+    padding: 80px 0;
+}
+
+.sec-title {
+    font-size: clamp(2rem, 4vw, 3rem);
+    margin-bottom: 16px;
+}
+
+.eyebrow {
+    color: var(--brand-2);
+    font-family: "IBM Plex Mono", monospace;
+    font-size: .9rem;
+    margin-bottom: 10px;
+}
+
+.muted {
+    color: var(--muted);
+}
+
+
+/* button style */
+
+.btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: .5rem;
+    padding: .9rem 1.4rem;
+    border-radius: 999px;
+    font-weight: 600;
+    transition: .25s ease;
+}
+
+.btn.primary {
+    background: linear-gradient(90deg, var(--brand), var(--brand-2));
+    color: white;
+}
+
+.btn.secondary {
+    border: 1px solid var(--panel-2);
+}
+
+.btn:hover {
+    transform: translateY(-2px);
+}
+
+
+/* card style */
+
+.card {
+    background: var(--panel);
+    border: 1px solid var(--panel-2);
+    border-radius: var(--radius);
+    box-shadow: var(--shadow);
+}

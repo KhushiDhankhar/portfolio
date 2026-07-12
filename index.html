@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Khushi Dhankhar — Software Engineer</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=IBM+Plex+Mono:wght@400;500;600&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="css/variables.css">
+<link rel="stylesheet" href="css/base.css">
+<link rel="stylesheet" href="css/header.css">
+<link rel="stylesheet" href="css/hero.css">
+<link rel="stylesheet" href="css/about.css">
+<link rel="stylesheet" href="css/skills.css">
+<link rel="stylesheet" href="css/timeline.css">
+<link rel="stylesheet" href="css/projects.css">
+<link rel="stylesheet" href="css/education.css">
+<link rel="stylesheet" href="css/footer.css">
+<link rel="stylesheet" href="css/animations.css">
+<link rel="stylesheet" href="css/responsive.css">
+
+</head>
+<body>
+
+<canvas id="netbg"></canvas>
+
+<header class="site">
+  <div class="wrap">
+    <a href="#top" class="logo">
+      <svg class="logo-mark" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+        <path d="M12 2c.6 3.4 1.4 5.6 2.6 6.8C15.8 10 18 10.8 21.4 11.4c.8.1.8 1.2 0 1.3-3.4.6-5.6 1.4-6.8 2.6-1.2 1.2-2 3.4-2.6 6.8-.1.8-1.2.8-1.3 0-.6-3.4-1.4-5.6-2.6-6.8C6.9 14.1 4.7 13.3 1.3 12.7c-.8-.1-.8-1.2 0-1.3 3.4-.6 5.6-1.4 6.8-2.6C9.3 7.6 10.1 5.4 10.7 2c.1-.8 1.2-.8 1.3 0Z"/>
+      </svg>
+      khushi<span class="logo-accent">shines</span>
+    </a>
+    <nav class="links">
+      <a href="#about">whoami</a>
+      <a href="#skills">skills</a>
+      <a href="#experience">experience</a>
+      <a href="#projects">projects</a>
+      <a href="#contact">contact</a>
+    </nav>
+    <nav class="icons">
+      <button id="themeToggle" class="theme-toggle" aria-label="Switch to light theme" aria-pressed="false">
+        <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8Z"/></svg>
+        <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="4.2"/><path d="M12 2.5v2.4M12 19.1v2.4M4.2 4.2l1.7 1.7M18.1 18.1l1.7 1.7M2.5 12h2.4M19.1 12h2.4M4.2 19.8l1.7-1.7M18.1 5.9l1.7-1.7"/></svg>
+      </button>
+      <a href="https://github.com/KhushiDhankhar" target="_blank" rel="noopener" aria-label="GitHub">
+        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 .5C5.73.5.98 5.24.98 11.52c0 5.02 3.26 9.28 7.77 10.78.57.1.78-.25.78-.55v-2.1c-3.16.69-3.83-1.34-3.83-1.34-.52-1.31-1.26-1.66-1.26-1.66-1.03-.7.08-.69.08-.69 1.14.08 1.74 1.17 1.74 1.17 1.01 1.74 2.65 1.24 3.3.95.1-.73.4-1.24.72-1.53-2.52-.29-5.17-1.26-5.17-5.6 0-1.24.44-2.25 1.17-3.05-.12-.29-.51-1.45.11-3.02 0 0 .96-.31 3.14 1.16a10.9 10.9 0 0 1 5.72 0c2.18-1.47 3.14-1.16 3.14-1.16.62 1.57.23 2.73.11 3.02.73.8 1.17 1.81 1.17 3.05 0 4.35-2.66 5.31-5.19 5.59.41.35.77 1.04.77 2.1v3.11c0 .3.21.66.79.55A11.03 11.03 0 0 0 23 11.52C23 5.24 18.27.5 12 .5Z"/></svg>
+      </a>
+      <a href="https://linkedin.com/in/khushi-dhankhar" target="_blank" rel="noopener" aria-label="LinkedIn">
+        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.45 20.45h-3.56v-5.58c0-1.33-.02-3.04-1.85-3.04-1.86 0-2.14 1.45-2.14 2.94v5.68H9.34V9h3.42v1.56h.05c.48-.9 1.64-1.85 3.38-1.85 3.61 0 4.28 2.38 4.28 5.47v6.27ZM5.34 7.43a2.07 2.07 0 1 1 0-4.13 2.07 2.07 0 0 1 0 4.13ZM7.12 20.45H3.56V9h3.56v11.45Z"/></svg>
+      </a>
+      <a href="mailto:khushu915@gmail.com" aria-label="Email">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M3 5h18v14H3z"/><path d="m3 6 9 7 9-7"/></svg>
+      </a>
+    </nav>
+  </div>
+</header>
+
+<main id="top">
+
+  <!-- HERO -->
+  <section class="hero" style="border:none; padding-bottom:20px;">
+    <div class="terminal">
+      <div class="terminal-bar">
+        <span class="dot r"></span><span class="dot y"></span><span class="dot g"></span>
+        <span class="terminal-title">discover.py — khushi-dhankhar</span>
+      </div>
+      <div class="terminal-body" id="termBody" aria-live="polite"></div>
+    </div>
+
+    <h1 class="hero-name" id="heroName">Khushi Dhankhar</h1>
+    <div class="hero-role mono" id="heroRole">Software Engineer — Python · Backend · Security</div>
+    <div class="hero-loc" id="heroLoc">Rohtak, Haryana, India · Final-year B.Tech CSE (AI &amp; ML)</div>
+    <div class="hero-cta" id="heroCta">
+      <a class="btn primary" href="./Khushi_Dhankhar_Resume_Generic.pdf" target="_blank" rel="noopener">↓ Resume</a>
+      <a class="btn" href="https://github.com/KhushiDhankhar" target="_blank" rel="noopener">GitHub</a>
+      <a class="btn" href="#projects">View Projects</a>
+    </div>
+
+    <div class="scroll-cue" id="scrollCue">SCROLL<div class="bar"></div></div>
+  </section>
+
+ <!-- ABOUT -->
+  <section id="about">
+    <div class="wrap">
+      <div class="eyebrow">whoami</div>
+      <h2 class="sec-title fade-up">About</h2>
+      <div class="about-grid">
+        <p class="fade-up">
+          I'm a final-year B.Tech CSE (AI &amp; ML) student with a strong foundation in software development,
+          data structures &amp; algorithms, and backend engineering. I'm proficient in Python and C++, with
+          hands-on experience building scalable, multithreaded applications during two internships at
+          Maruti Suzuki — both graded Excellent. I care about clean, well-tested code, and I like understanding
+          systems well enough to probe them: most of my personal projects sit at the intersection of software
+          engineering and network/security tooling.
+        </p>
+        <div class="stat-panel fade-up">
+          <div class="stat-row"><span>leetcode.solved</span><span class="val">530+</span></div>
+          <div class="stat-row"><span>internships</span><span class="val">2 · Grade: Excellent</span></div>
+          <div class="stat-row"><span>cgpa</span><span class="val">8.46 / 10</span></div>
+          <div class="stat-row"><span>tools_shipped</span><span class="val">3</span></div>
+          <div class="stat-row"><span>graduating</span><span class="val">2026</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills">
+    <div class="wrap">
+      <div class="eyebrow">cat skills.json</div>
+      <h2 class="sec-title fade-up">Skills</h2>
+      <div class="skills-grid">
+        <div class="skill-card fade-up">
+          <h3>Programming Languages</h3>
+          <div class="chips">
+            <span class="chip">Python (OOP, Multithreading)</span>
+            <span class="chip">C++</span>
+            <span class="chip">SQL</span>
+          </div>
+        </div>
+        <div class="skill-card fade-up">
+          <h3>CS Fundamentals</h3>
+          <div class="chips">
+            <span class="chip">Data Structures &amp; Algorithms</span>
+            <span class="chip">Operating Systems</span>
+            <span class="chip">TCP/IP · DNS · HTTP · TLS/SSL</span>
+          </div>
+        </div>
+        <div class="skill-card fade-up">
+          <h3>Software Development</h3>
+          <div class="chips">
+            <span class="chip">SDLC</span>
+            <span class="chip">Agile</span>
+            <span class="chip">Testing &amp; Debugging</span>
+            <span class="chip">REST APIs</span>
+            <span class="chip">Scalable System Design</span>
+          </div>
+        </div>
+        <div class="skill-card fade-up">
+          <h3>Tools &amp; Platforms</h3>
+          <div class="chips">
+            <span class="chip">Git / GitHub</span>
+            <span class="chip">Linux CLI</span>
+            <span class="chip">MySQL</span>
+            <span class="chip">GCP</span>
+            <span class="chip">Postman</span>
+          </div>
+        </div>
+        <div class="skill-card fade-up">
+          <h3>Security &amp; Other</h3>
+          <div class="chips">
+            <span class="chip">Cryptography &amp; Hashing</span>
+            <span class="chip">OSINT Techniques</span>
+            <span class="chip">Generative AI / LLMs</span>
+            <span class="chip">Prompt Engineering</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- EXPERIENCE -->
+  <section id="experience">
+    <div class="wrap">
+      <div class="eyebrow">cat experience.log</div>
+      <h2 class="sec-title fade-up">Experience</h2>
+      <div class="timeline">
+        <div class="tl-item fade-up">
+          <div class="tl-dot"></div>
+          <div class="tl-head">
+            <div class="tl-role">Project Trainee — ICSMSAM (Cybersecurity)</div>
+            <div class="tl-date">Jul 2025 – Aug 2025</div>
+          </div>
+          <div class="tl-sub">Maruti Suzuki · Gurgaon · <span class="grade">Grade: Excellent</span></div>
+          <ul>
+            <li>Engineered a 4-stage subdomain enumeration pipeline combining multithreaded DNS brute-forcing, passive OSINT via Bing scraping, and crt.sh certificate transparency queries, with concurrent HTTPS live-host verification.</li>
+            <li>Architected a configurable thread-pool concurrency model (ThreadPoolExecutor, default 20 threads) with an argparse-driven CLI, cutting scan time on large wordlists.</li>
+            <li>Built and shipped a CLI hashing utility (MD5, SHA-256) with persistent hash-to-plaintext lookup storage.</li>
+          </ul>
+        </div>
+        <div class="tl-item fade-up">
+          <div class="tl-dot"></div>
+          <div class="tl-head">
+            <div class="tl-role">Project Trainee — ITSEC (IT Security)</div>
+            <div class="tl-date">Jun 2024 – Jul 2024</div>
+          </div>
+          <div class="tl-sub">Maruti Suzuki · Gurgaon · <span class="grade">Grade: Excellent</span></div>
+          <ul>
+            <li>Developed a multithreaded network port scanner in Python using socket APIs, concurrently scanning custom port ranges with service identification via port-to-service resolution.</li>
+            <li>Implemented structured audit logging (rotating file handlers, UUID session tracking) and optimized scan performance through concurrent TCP handling.</li>
+            <li>Partnered with a cross-functional team to gather requirements and contribute to solution design.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects">
+    <div class="wrap">
+      <div class="eyebrow">ls ~/projects</div>
+      <h2 class="sec-title fade-up">Projects</h2>
+      <div class="proj-grid">
+        <div class="proj-card fade-up">
+          <div class="proj-top">
+            <div class="proj-title">Domain Enumerator</div>
+            <a class="proj-link" href="https://github.com/KhushiDhankhar/subdomain-enumerator" target="_blank" rel="noopener" aria-label="View on GitHub">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 .5C5.73.5.98 5.24.98 11.52c0 5.02 3.26 9.28 7.77 10.78.57.1.78-.25.78-.55v-2.1c-3.16.69-3.83-1.34-3.83-1.34-.52-1.31-1.26-1.66-1.26-1.66-1.03-.7.08-.69.08-.69 1.14.08 1.74 1.17 1.74 1.17 1.01 1.74 2.65 1.24 3.3.95.1-.73.4-1.24.72-1.53-2.52-.29-5.17-1.26-5.17-5.6 0-1.24.44-2.25 1.17-3.05-.12-.29-.51-1.45.11-3.02 0 0 .96-.31 3.14 1.16a10.9 10.9 0 0 1 5.72 0c2.18-1.47 3.14-1.16 3.14-1.16.62 1.57.23 2.73.11 3.02.73.8 1.17 1.81 1.17 3.05 0 4.35-2.66 5.31-5.19 5.59.41.35.77 1.04.77 2.1v3.11c0 .3.21.66.79.55A11.03 11.03 0 0 0 23 11.52C23 5.24 18.27.5 12 .5Z"/></svg>
+            </a>
+          </div>
+          <p class="proj-desc">Attack-surface mapping tool: a 4-stage pipeline combining multithreaded DNS brute-force, Bing-based OSINT scraping, and certificate transparency queries with concurrent HTTPS live-host validation.</p>
+          <div class="proj-tags"><span>Python</span><span>DNS</span><span>Multithreading</span><span>crt.sh</span></div>
+        </div>
+
+        <div class="proj-card fade-up">
+          <div class="proj-top">
+            <div class="proj-title">Network Utilities Suite</div>
+            <a class="proj-link" href="https://github.com/KhushiDhankhar/network-utilitity-tools" target="_blank" rel="noopener" aria-label="View on GitHub">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 .5C5.73.5.98 5.24.98 11.52c0 5.02 3.26 9.28 7.77 10.78.57.1.78-.25.78-.55v-2.1c-3.16.69-3.83-1.34-3.83-1.34-.52-1.31-1.26-1.66-1.26-1.66-1.03-.7.08-.69.08-.69 1.14.08 1.74 1.17 1.74 1.17 1.01 1.74 2.65 1.24 3.3.95.1-.73.4-1.24.72-1.53-2.52-.29-5.17-1.26-5.17-5.6 0-1.24.44-2.25 1.17-3.05-.12-.29-.51-1.45.11-3.02 0 0 .96-.31 3.14 1.16a10.9 10.9 0 0 1 5.72 0c2.18-1.47 3.14-1.16 3.14-1.16.62 1.57.23 2.73.11 3.02.73.8 1.17 1.81 1.17 3.05 0 4.35-2.66 5.31-5.19 5.59.41.35.77 1.04.77 2.1v3.11c0 .3.21.66.79.55A11.03 11.03 0 0 0 23 11.52C23 5.24 18.27.5 12 .5Z"/></svg>
+            </a>
+          </div>
+          <p class="proj-desc">Suite of security components: a concurrent port scanner with rotating-file audit logging, a CLI MD5/SHA-256 hashing tool with persistent lookup storage, and a Tkinter signature-detection file scanner.</p>
+          <div class="proj-tags"><span>Python</span><span>Sockets</span><span>TCP/IP</span><span>Tkinter</span></div>
+        </div>
+
+        <div class="proj-card fade-up">
+          <div class="proj-top">
+            <div class="proj-title">AES Encryption Tool</div>
+            <a class="proj-link" href="https://github.com/KhushiDhankhar/aes-cbc-encrytption-decryption-tool" target="_blank" rel="noopener" aria-label="View on GitHub">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 .5C5.73.5.98 5.24.98 11.52c0 5.02 3.26 9.28 7.77 10.78.57.1.78-.25.78-.55v-2.1c-3.16.69-3.83-1.34-3.83-1.34-.52-1.31-1.26-1.66-1.26-1.66-1.03-.7.08-.69.08-.69 1.14.08 1.74 1.17 1.74 1.17 1.01 1.74 2.65 1.24 3.3.95.1-.73.4-1.24.72-1.53-2.52-.29-5.17-1.26-5.17-5.6 0-1.24.44-2.25 1.17-3.05-.12-.29-.51-1.45.11-3.02 0 0 .96-.31 3.14 1.16a10.9 10.9 0 0 1 5.72 0c2.18-1.47 3.14-1.16 3.14-1.16.62 1.57.23 2.73.11 3.02.73.8 1.17 1.81 1.17 3.05 0 4.35-2.66 5.31-5.19 5.59.41.35.77 1.04.77 2.1v3.11c0 .3.21.66.79.55A11.03 11.03 0 0 0 23 11.52C23 5.24 18.27.5 12 .5Z"/></svg>
+            </a>
+          </div>
+          <p class="proj-desc">Password-based file &amp; message encryption tool using AES-CBC with PBKDF2HMAC key derivation, salting, PKCS7 padding, and Base64 encoding for safe ciphertext storage.</p>
+          <div class="proj-tags"><span>Python</span><span>AES-CBC</span><span>PBKDF2</span><span>Cryptography</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- EDUCATION & CERTS -->
+  <section id="education">
+    <div class="wrap">
+      <div class="eyebrow">cat education.md</div>
+      <h2 class="sec-title fade-up">Education &amp; Certifications</h2>
+      <div class="edu-grid">
+        <div class="edu-card fade-up">
+          <h3>Education</h3>
+          <div class="degree">B.Tech, Computer Science Engineering (AI &amp; ML)</div>
+          <div class="school">UIET, Maharshi Dayanand University (MDU), Rohtak · 2022 – 2026</div>
+          <div class="cgpa">CGPA: 8.46 / 10 (through 7th semester)</div>
+        </div>
+        <div class="edu-card fade-up">
+          <h3>Certifications &amp; Achievements</h3>
+          <ul class="cert-list">
+            <li>Google Cloud Generative AI Virtual Internship — SmartBridge &amp; SmartInternz × Google Cloud (Nov 2025 – Jan 2026); Google Skill Badge in Generative AI on GCP.</li>
+            <li>LeetCode: 530+ problems solved.</li>
+            <li>MySQL Mentor, Byte Squad — guided peers on database concepts and query optimization.</li>
+            <li>Smart India Hackathon (SIH) participant.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <footer id="contact">
+    <div class="wrap">
+      <div class="eyebrow" style="justify-content:center;">./contact.sh</div>
+      <h2 class="fade-up">Let's build something.</h2>
+      <p class="sub fade-up">Open to Software Engineer and SDE Intern roles. Reach out — I reply fast.</p>
+      <div class="contact-row fade-up">
+        <a class="btn primary" href="mailto:khushu915@gmail.com">khushu915@gmail.com</a>
+        <a class="btn" href="tel:+918168349350">+91 81683 49350</a>
+        <a class="btn" href="https://linkedin.com/in/khushi-dhankhar" target="_blank" rel="noopener">LinkedIn</a>
+        <a class="btn" href="https://github.com/KhushiDhankhar" target="_blank" rel="noopener">GitHub</a>
+      </div>
+      <div class="foot-bottom wrap">
+        <p>&copy; <span id="copyright-year"></span> Khushi Dhankhar. All Rights Reserved.</p>
+        <span>Rohtak, Haryana, India</span>
+        <span>Built with intent, not a template.</span>
+      </div>
+    </div>
+  </footer>
+
+</main>
+<script src="js/script.js"></script>
+
+</body>
+</html>
