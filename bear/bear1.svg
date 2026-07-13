@@ -19,7 +19,7 @@
         width="24"
         height="22"
         rx="3"
-        fill="#846854"/>
+        fill="#b99274"/>
 
     <!-- Head -->
     <rect
@@ -28,20 +28,20 @@
         width="28"
         height="22"
         rx="4"
-        fill="#896f5c"/>
+        fill="#a78367"/>
 
     <!-- Ears -->
     <circle
         cx="24"
         cy="10"
         r="4"
-        fill="#927158"/>
+        fill="#8e7460"/>
 
     <circle
         cx="40"
         cy="10"
         r="4"
-        fill="#937157"/>
+        fill="#7B5B42"/>
 
     <!-- Eyes -->
     <circle
@@ -63,7 +63,7 @@
         width="4"
         height="3"
         rx="1"
-        fill="#3b3939"/>
+        fill="#111"/>
 
     <!-- Legs -->
     <rect
@@ -73,7 +73,7 @@
         width="5"
         height="12"
         rx="2"
-        fill="#76563f"/>
+        fill="#a78975"/>
 
     <rect
         id="legRight"
@@ -82,7 +82,7 @@
         width="5"
         height="12"
         rx="2"
-        fill="#6d4d36"/>
+        fill="#a78975"/>
 
     <!-- Arms -->
     <rect
@@ -92,7 +92,7 @@
         width="5"
         height="12"
         rx="2"
-        fill="#a27b60"/>
+        fill="#7d6351"/>
 
     <rect
         id="armRight"
@@ -101,6 +101,6 @@
         width="5"
         height="12"
         rx="2"
-        fill="#9d795f"/>
+        fill="#7d6351"/>
 
 </svg>

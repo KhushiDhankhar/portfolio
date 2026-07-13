@@ -1,0 +1,28 @@
+#bear{
+
+    position:fixed;
+
+    width:64px;
+    height:64px;
+
+    left:0;
+    top:0;
+
+    pointer-events:none;
+
+    z-index:999999;
+
+    transform-origin:center;
+
+    will-change:transform;
+
+}
+
+/* SVG fills the container */
+
+#bear svg{
+
+    width:100%;
+    height:100%;
+
+}
