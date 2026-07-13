@@ -123,7 +123,7 @@ Open `index.html` in your browser or use a local development server such as VS C
 
 ## 📫 Contact
 
-* **Email:** khushu915@gmail.com
+* **Email:** dhankharkhushi04@gmail.com
 * **LinkedIn:** https://www.linkedin.com/in/khushi-dhankhar-20130525a/
 * **GitHub:** https://github.com/KhushiDhankhar
 
