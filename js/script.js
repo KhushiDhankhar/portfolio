@@ -53,7 +53,7 @@ if(reduceMotion){
     div.className = 'line ' + cls;
     termBody.appendChild(div);
     let ci = 0;
-    const speed = 16;
+    const speed = 1;
     function typeChar(){
       if(ci <= t.length){
         div.textContent = t.slice(0, ci);
@@ -66,12 +66,12 @@ if(reduceMotion){
         setTimeout(typeChar, speed);
       } else {
         li++;
-        setTimeout(typeLine, 160);
+        setTimeout(typeLine, 30);
       }
     }
     typeChar();
   }
-  setTimeout(typeLine, 400);
+  setTimeout(typeLine, 100);
 }
 
 // ---------- scroll reveal ----------
