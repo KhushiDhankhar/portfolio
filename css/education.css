@@ -1,4 +1,4 @@
- /* education / certs */
+/* education / certs */
   .edu-grid{display:grid; grid-template-columns:1fr 1fr; gap:20px;}
   .edu-card{
     background:var(--panel); border:1px solid var(--line); border-radius:var(--radius); padding:22px;

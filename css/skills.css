@@ -1,0 +1,16 @@
+/* skills */
+  .skills-grid{display:grid; grid-template-columns:repeat(auto-fit, minmax(240px,1fr)); gap:18px;}
+  .skill-card{
+    background:var(--panel); border:1px solid var(--line); border-radius:var(--radius);
+    padding:20px;
+  }
+  .skill-card h3{
+    font-family:'IBM Plex Mono', monospace; font-size:13px; color:var(--muted);
+    text-transform:uppercase; letter-spacing:0.06em; margin-bottom:14px; font-weight:500;
+  }
+  .chips{display:flex; flex-wrap:wrap; gap:8px;}
+  .chip{
+    font-family:'IBM Plex Mono', monospace; font-size:12px;
+    padding:6px 10px; border-radius:6px;
+    background:var(--panel-2); border:1px solid var(--line); color:var(--body-text);
+  }

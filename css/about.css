@@ -1,0 +1,15 @@
+/* about */
+  .about-grid{display:grid; grid-template-columns:1.3fr 1fr; gap:48px; align-items:start;}
+  .about-grid p{color:var(--body-text); font-size:16px;}
+  .stat-panel{
+    background:var(--panel); border:1px solid var(--line); border-radius:var(--radius);
+    padding:18px;
+  }
+  .stat-row{
+    display:flex; justify-content:space-between; align-items:baseline;
+    padding:12px 4px; border-bottom:1px dashed var(--line);
+    font-family:'IBM Plex Mono', monospace; font-size:13px;
+  }
+  .stat-row:last-child{border-bottom:none;}
+  .stat-row .val{color:var(--signal); font-weight:600;}
+  @media(max-width:800px){.about-grid{grid-template-columns:1fr;}}

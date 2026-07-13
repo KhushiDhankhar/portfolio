@@ -1,21 +1,18 @@
-:root {
-    --bg: #070a13;
-    --panel: rgba(255, 255, 255, 0.06);
-    --panel-2: rgba(255, 255, 255, 0.08);
-    --text: #e8eefc;
-    --muted: #aab6d3;
-    --brand: #7c5cff;
-    --brand-2: #33d1ff;
-    --accent: #22c55e;
-    --danger: #ef4444;
-    --ring: rgba(124, 92, 255, 0.35);
-    --shadow: 0 10px 30px rgba(0, 0, 0, .35);
-    --radius: 22px;
-    --maxw: 1180px;
-    --header-h: 72px;
+ :root{
+    --ink:#0A0F1C;
+    --panel:#101A2E;
+    --panel-2:#0D1626;
+    --line:#223154;
+    --text:#E9EDF5;
+    --muted:#8A97B5;
+    --signal:#4FD1C5;
+    --amber:#F2A65A;
+    --body-text:#C7D0E4;
+    --header-bg:rgba(10,15,28,0.82);
+    --radius:10px;
+    --maxw:1080px;
 
-
- /* terminal always stays dark regardless of page theme — real terminals do */
+    /* terminal always stays dark regardless of page theme — real terminals do */
     --term-bg:#101A2E;
     --term-bg2:#0D1626;
     --term-border:#223154;
@@ -29,11 +26,11 @@
     --panel:#FFFFFF;
     --panel-2:#EAF0F9;
     --line:#D7E0EF;
-    --text:#7c828f;
+    --text:#0E1626;
     --muted:#5B6B8C;
     --signal:#0C8C7D;
     --amber:#B15A24;
-    --body-text:#d8e0f3;
+    --body-text:#33405C;
     --header-bg:rgba(243,246,252,0.86);
   }
 
@@ -66,7 +63,7 @@
 
   .wrap{max-width:var(--maxw); margin:0 auto; padding:0 28px;}
 
-   /* ---------- ambient network background ---------- */
+  /* ---------- ambient network background ---------- */
   #netbg{
     position:fixed; inset:0; z-index:0; pointer-events:none;
     opacity:0.35;
