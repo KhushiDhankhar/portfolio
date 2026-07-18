@@ -61,7 +61,7 @@ portfolio/
 |   |-- script.js
 |   `-- projects-page.js
 |-- assets/
-|   |-- Khushi_Dhankhar_Resume.pdf
+|   |-- Khushi_Dhankhar_Resume_ATS.pdf
 |   `-- icons/
 `-- README.md
 ```
