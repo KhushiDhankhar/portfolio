@@ -1,0 +1,14 @@
+.why-hire-section{padding-top:80px;padding-bottom:80px}
+.why-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+.why-card{background:var(--panel);border:1px solid var(--line);border-radius:var(--radius);padding:24px}
+.why-card h3{font-size:18px;margin:12px 0 8px}.why-card p,.section-intro{color:var(--body-text)}
+.why-num{font-family:'IBM Plex Mono',monospace;color:var(--signal);font-size:13px}
+.section-intro{max-width:760px;margin:-10px 0 28px}
+.impact-line{font-size:13px;color:var(--body-text);padding:10px 12px;border-left:2px solid var(--signal);background:rgba(79,209,197,.06);margin:0}
+.impact-line strong{color:var(--signal)}.featured-project{border-color:rgba(79,209,197,.55)}
+.live-badge{font-family:'IBM Plex Mono',monospace;font-size:10px;letter-spacing:.05em;color:var(--signal);border:1px solid rgba(79,209,197,.35);border-radius:4px;padding:3px 5px;vertical-align:middle}
+.detail-link{font-family:'IBM Plex Mono',monospace;font-size:12px;color:var(--signal);text-decoration:none;margin-top:auto}.detail-link:hover{text-decoration:underline}
+.projects-hero{position:relative;z-index:1;padding:90px 0 58px;border-bottom:1px solid var(--line)}.projects-hero h1{font-size:clamp(36px,6vw,60px);margin-bottom:14px}.projects-hero p{max-width:720px;color:var(--body-text);font-size:17px}
+.project-list{position:relative;z-index:1;padding:70px 0 100px}.project-detail{background:var(--panel);border:1px solid var(--line);border-radius:var(--radius);padding:30px;margin-bottom:24px;scroll-margin-top:100px}.project-detail h2{font-size:28px;margin:6px 0 10px}.project-detail>p{color:var(--body-text);max-width:850px}
+.project-kicker{font-family:'IBM Plex Mono',monospace;color:var(--signal);font-size:12px}.project-detail-grid{display:grid;grid-template-columns:1fr 1fr;gap:30px;margin-top:24px}.project-detail h3{font-size:15px;margin:0 0 8px}.project-detail ul{margin:0;padding-left:18px;color:var(--body-text)}.project-detail li{margin-bottom:8px}.project-actions{display:flex;flex-wrap:wrap;gap:10px;margin-top:25px}
+@media(max-width:800px){.why-grid,.project-detail-grid{grid-template-columns:1fr}}

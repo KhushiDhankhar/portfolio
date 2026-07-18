@@ -113,9 +113,9 @@ Open `index.html` in your browser or use a local development server such as VS C
 
   * Python-based subdomain enumeration tool using DNS resolution and certificate transparency logs.
 
-* **AES Encryption Tool**
+* **CipherVault**
 
-  * Secure file encryption utility implementing AES-256 encryption.
+  * Deployed password-based privacy tool for protecting messages and files without accounts or external password storage.
 
 * **Network Utilities**
 
