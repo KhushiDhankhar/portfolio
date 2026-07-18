@@ -1,0 +1,60 @@
+@media (max-width: 960px) {
+  nav.links { gap: 16px; }
+  nav.links a { font-size: 12px; }
+  .logo-mark { width: 52px; height: 52px; }
+  header.site .wrap { height: 70px; }
+}
+
+@media (max-width: 760px) {
+  .wrap { padding-left: 20px; padding-right: 20px; }
+  header.site .wrap { height: 64px; }
+  .logo { font-size: 14px; gap: 6px; }
+  .logo-mark { width: 44px; height: 44px; }
+  nav.links { display: none; }
+  nav.icons { gap: 7px; }
+  nav.icons a, .theme-toggle { width: 30px; height: 30px; }
+
+  .hero { min-height: auto; padding: 34px 20px 24px; }
+  .terminal-body { min-height: 180px; padding: 16px 14px 18px; font-size: 12px; }
+  .terminal-title { font-size: 11px; }
+  .hero-name { margin-top: 18px; }
+  .hero-cta { margin-top: 24px; gap: 10px; }
+  .scroll-cue { display: none; }
+
+  section { padding: 68px 0; }
+  .why-hire-section { padding-top: 58px; padding-bottom: 58px; }
+  .projects-hero { padding: 62px 0 40px; }
+  .project-list { padding: 48px 0 72px; }
+  .project-detail { padding: 22px; }
+  .project-detail h2 { font-size: 24px; }
+  .project-actions { margin-top: 20px; }
+
+  .stat-row { gap: 12px; align-items: flex-start; }
+  .stat-row .val { text-align: right; }
+  .leetcode-spotlight { padding: 20px; }
+  .leetcode-spotlight .btn { justify-content: center; }
+  .tl-head { align-items: flex-start; }
+  .tl-date { white-space: normal; }
+  footer { padding: 68px 0 38px; }
+  .foot-bottom { justify-content: center; text-align: center; }
+}
+
+@media (max-width: 480px) {
+  .wrap { padding-left: 16px; padding-right: 16px; }
+  .logo-accent { display: none; }
+  nav.icons a:nth-of-type(1), nav.icons a:nth-of-type(2) { display: none; }
+  .hero-role { font-size: 12px; }
+  .hero-loc { font-size: 13px; }
+  .hero-cta, .contact-row, .project-actions { width: 100%; }
+  .hero-cta .btn, .contact-row .btn, .project-actions .btn { width: 100%; justify-content: center; }
+  .terminal-body { min-height: 168px; font-size: 11px; }
+  .terminal-title { max-width: 190px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  section { padding: 54px 0; }
+  h2.sec-title { margin-bottom: 20px; }
+  .proj-card, .edu-card, .skill-card, .why-card { padding: 18px; }
+  .project-detail { padding: 18px; }
+  .chart-axis { font-size: 10px; }
+  .chart-label strong { font-size: 16px; }
+  .tl-role { font-size: 16px; }
+  .tl-item ul { padding-left: 16px; }
+}
